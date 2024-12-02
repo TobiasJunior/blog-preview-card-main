@@ -18,7 +18,7 @@ How to Use
 Clone this repository to your local environment:
 bash
 Copy code
-git clone https://github.com/your-username/html-css-foundations.git
+git clone https://github.com/TobiasJunior/blog-preview-card-main.git
 Navigate to the project directory:
 bash
 Copy code
@@ -67,7 +67,7 @@ Como Usar
 Clone este repositório para o seu ambiente local:
 bash
 Copy code
-git clone https://github.com/seu-usuario/html-css-foundations.git
+git clone https://github.com/TobiasJunior/blog-preview-card-main.git
 Navegue até o diretório do projeto:
 bash
 Copy code
