@@ -1,0 +1,83 @@
+body {
+    font-family:'Figtree', sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 18px;
+    box-shadow: black;
+    border: 25px;
+
+    
+    overflow: hidden;
+}
+.content img{
+    border-radius: 8px 8px 0px 0px;
+}
+
+.content {
+    padding: 24px;
+    box-shadow: #333;
+    
+}
+
+.learning {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+}
+
+.button {
+    background-color: hsl(47, 88%, 63%);
+    color: #333;
+    border: none;
+    border-radius: 2px;
+    padding: 4px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+#published {
+    color: hsl(0, 0%, 42%);
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+p {
+    color: hsl(0, 0%, 7%);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #888;
+}
+
+.attribution a {
+    color: #3e52a3;
+}
+.composer{
+    display:inline-block;
+
+}
+
+.composer img{
+    width: 20%;
+}
