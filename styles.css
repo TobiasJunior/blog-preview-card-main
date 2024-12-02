@@ -1,5 +1,5 @@
 body {
-    font-family:'Figtree', sans-serif;
+    font-family: 'Figtree', sans-serif;
     background-color: hsl(47, 88%, 63%);
     display: flex;
     justify-content: center;
@@ -13,20 +13,19 @@ body {
     width: 375px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 18px;
-    box-shadow: black;
-    border: 25px;
-
-    
-    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); /* Sombra mais grossa e visível */
+    border: none;  /* Remover o border para melhor visualização da sombra */
+    overflow: visible;
 }
-.content img{
+
+
+.content img {
     border-radius: 8px 8px 0px 0px;
 }
 
 .content {
     padding: 24px;
-    box-shadow: #333;
-    
+    /* Remover a sombra do conteúdo para evitar duplicação da sombra */
 }
 
 .learning {
@@ -45,7 +44,7 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
-  
+
 #published {
     color: hsl(0, 0%, 42%);
     font-size: 14px;
@@ -73,11 +72,11 @@ p {
 .attribution a {
     color: #3e52a3;
 }
-.composer{
-    display:inline-block;
 
+.composer {
+    display: inline-block;
 }
 
-.composer img{
+.composer img {
     width: 20%;
 }
